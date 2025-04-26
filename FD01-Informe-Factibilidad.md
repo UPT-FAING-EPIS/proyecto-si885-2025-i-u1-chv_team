@@ -255,7 +255,7 @@ Gastos operacionales como parte del funcionamiento del software en la puesta en 
 
 | DETALLE                | INGRESOS  | EGRESOS  | FLUJO DE CAJA |
 |------------------------|-----------|----------|---------------|
-| **INVERSIÓN INICIAL**  |           | -S/ 11,964 |               |
+| **INVERSIÓN INICIAL**  |           |  | -S/ 11,964              |
 | **MES 1**              | S/ 7,000  | S/ 5,500  | S/ 1,500      |
 | **MES 2**              | S/ 14,000 | S/ 9,000  | S/ 5,000      |
 | **MES 3**              | S/ 21,000 | S/ 12,500 | S/ 8,500      |
