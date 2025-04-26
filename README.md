@@ -17,7 +17,17 @@
 - **Hinojosa Mucho, Christian Dennis**  
 - **Chite Quispe, Brian Danilo** 
  
+## Objetivo Principal:
+Evaluar el perfil profesional de los egresados de la EPIS de la UPT en LinkedIn para identificar sus habilidades, competencias, sectores laborales y trayectorias profesionales, y proponer estrategias para mejorar su posicionamiento en el mercado laboral.
 
+## Objetivos Secundarios:
+1. Identificar las habilidades y competencias más destacadas en los perfiles de los egresados.
+2. Analizar los sectores laborales y roles profesionales predominantes en los que trabajan.
+3. Examinar las trayectorias profesionales y el crecimiento de los egresados.
+4. Evaluar la visibilidad y calidad de los perfiles de LinkedIn.
+5. Comparar los perfiles con las demandas del mercado laboral actual.
+6. Proponer recomendaciones para mejorar la presencia de los egresados en LinkedIn.
+   
 ## RoadMap:
 
 ![Roadmap](./descarga.png)
