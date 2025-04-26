@@ -10,221 +10,296 @@
 
 **Escuela Profesional de Ingeniería de Sistemas**
 
-**Proyecto *{Nombre de Proyecto}***
+**Proyecto *Análisis del Perfil Profesional de los Egresados de la EPIS de la UPT en LinkedIn***
 
-Curso: *{Nombre de Asignatura}*
+Curso: **Inteligencia de Negocios**
 
-Docente: *{Nombre de Docente}*
+Docente: **Mag. Patrick José Cuadros Quiroga**
 
-Integrantes:
+## Integrantes:
 
-***{Apellidos y nombres del estudiante (código universitario)}***
+  **Villanueva Mamani, Royser Alonsso (2021071090)** 
+  **Hinojosa Mucho, Christian Dennis (2019065161)** 
+  **Chite Quispe, Brian Danilo (2021070015)** 
 
 **Tacna – Perú**
 
-***{Año}***
+***2025***
 
-**  
-**
+
 </center>
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
-
-Sistema *{Nombre del Sistema}*
-
-Informe de Factibilidad
-
-Versión *{1.0}*
 
 |CONTROL DE VERSIONES||||||
 | :-: | :- | :- | :- | :- | :- |
 |Versión|Hecha por|Revisada por|Aprobada por|Fecha|Motivo|
 |1\.0|MPV|ELV|ARV|10/10/2020|Versión Original|
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+<div align="right">
 
-# **INDICE GENERAL**
+# Sistema de Análisis del Perfil Profesional de los Egresados de la EPIS de la UPT en LinkedIn
 
-[1. Descripción del Proyecto](#_Toc52661346)
+## Informe de Factibilidad
 
-[2. Riesgos](#_Toc52661347)
+**Versión 1.0**
 
-[3. Análisis de la Situación actual](#_Toc52661348)
+</div>
 
-[4. Estudio de Factibilidad](#_Toc52661349)
+# ÍNDICE GENERAL
 
-[4.1 Factibilidad Técnica](#_Toc52661350)
+1. **Descripción del Proyecto** ................................... 3  
+2. **Riesgos** ........................................................ 3  
+3. **Análisis de la Situación Actual** .............................. 3  
+4. **Estudio de Factibilidad** ..................................... 3  
+   4.1. **Factibilidad Técnica** .................................. 4  
+   4.2. **Factibilidad Económica** ................................ 4  
+   4.3. **Factibilidad Operativa** ................................ 4  
+   4.4. **Factibilidad Legal** ..................................... 4  
+   4.5. **Factibilidad Social** .................................... 5  
+   4.6. **Factibilidad Ambiental** ................................. 5  
+5. **Análisis Financiero** ......................................... 5  
+6. **Conclusiones** ................................................. 5
 
-[4.2 Factibilidad económica](#_Toc52661351)
 
-[4.3 Factibilidad Operativa](#_Toc52661352)
+# Informe de Factibilidad
 
-[4.4 Factibilidad Legal](#_Toc52661353)
+## 1. Descripción del Proyecto
 
-[4.5 Factibilidad Social](#_Toc52661354)
+### 1.1 Nombre del Proyecto
+Sistema de Análisis del Perfil Profesional de los Egresados de la EPIS de la UPT en LinkedIn
 
-[4.6 Factibilidad Ambiental](#_Toc52661355)
+### 1.2 Duración del Proyecto
+El tiempo estimado del proyecto será de 3 meses, iniciando el 18 de marzo de 2025, culminando el día 28 de junio de 2025.
 
-[5. Análisis Financiero](#_Toc52661356)
+### 1.3 Descripción 
+El propósito de este proyecto es analizar el perfil profesional de los egresados de la Universidad Privada de Tacna (UPT) de la Escuela Profesional de Ingeniería de Sistemas en LinkedIn para identificar tendencias laborales, sectores predominantes y oportunidades de mejora en la formación académica.
 
-[6. Conclusiones](#_Toc52661357)
+### 1.4 Objetivos
 
+#### 1.4.1 Objetivo General
+Evaluar la viabilidad del sistema de análisis del perfil profesional de los egresados de la EPIS de la UPT en LinkedIn, considerando aspectos técnicos, operativos, económicos y legales, con el fin de determinar su implementación y utilidad para la toma de decisiones académicas y laborales.
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+#### 1.4.2 Objetivos Específicos
+- Evaluar herramientas y metodologías necesarias para la recopilación y procesamiento de datos de LinkedIn.
+- Identificar recursos humanos y tecnológicos requeridos para llevar a cabo el análisis.
 
-**<u>Informe de Factibilidad</u>**
+## 2. Riesgos
 
-1. <span id="_Toc52661346" class="anchor"></span>**Descripción del Proyecto**
+Los riesgos de este proyecto se verán marcados por los siguientes puntos:
+- En primer lugar, el acceso limitado a los datos. LinkedIn tiene restricciones en la extracción de datos, lo que puede dificultar la recopilación de información masiva. Además el que se nos proporcione información acerca de los egresados desde la Universidad puede ser restringido y privado por lo cual acceder a ello será un proceso largo.
+- En segundo lugar, la veracidad de los datos. En algunos casos, los perfiles pueden contener información incompleta, desactualizada o inexacta, lo que afectará el análisis del proyecto.
 
-    1.1. Nombre del proyecto
+## 3. Análisis de la Situación Actual
 
-    1.2. Duración del proyecto
+### 3.1 Planteamiento del Problema
+Existe una falta de información estructurada sobre la trayectoria laboral de los egresados de la UPT, lo que dificulta evaluar su empleabilidad, sectores laborales predominantes, habilidades más demandadas y ubicación geográfica. Esto limita la capacidad de la universidad para ajustar su oferta académica y mejorar la orientación profesional de los estudiantes.
 
-    1.3. Descripción
+### 3.2 Consideraciones de Hardware y Software
 
-        En que consiste el proyecto/importancia del mismo, contexto en que se va desenvolver
+#### Hardware:
+- Computadora de escritorio o laptop con las siguientes especificaciones:
+  - Procesador: Intel Core i7/i9 o AMD Ryzen 7/9
+  - Memoria RAM: Mínimo 8GB (recomendado 16GB para grandes volúmenes de datos)
+  - Almacenamiento: SSD de al menos 512GB para rapidez en procesamiento
+- Servidor en la nube como Azure, AWS o Google Cloud.
 
-    1.4. Objetivos
+#### Software:
+- Python 3.13 o versión actual
+- Librerías de scraping (Selenium, BeautifulSoup): Para extraer información pública de LinkedIn.
+- Visual Studio Code 1.98 o versión más actual
+- MySQL 8.0 o versión actual
+- Tableau 2021.4 o versión actual
 
-        1.4.1 Objetivo general
-        1.4.2 Objetivos Específicos
-            Para cada objetivo específico se indicara que se va a lograr
+## 4. Estudio de Factibilidad
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+### 4.1 Factibilidad Técnica
+## 4.1 Factibilidad Técnica
 
-2. <span id="_Toc52661347" class="anchor"></span>**Riesgos**
+El estudio de viabilidad técnica tiene como objetivo evaluar la tecnología actual disponible y su aplicabilidad para el desarrollo e implementación del proyecto. A continuación, se presenta una evaluación detallada de los recursos tecnológicos que se utilizarán:
 
-    Señale los riesgos que pudieran afectar el éxito del proyecto.}*
+### Hardware:
+- **Computadora de escritorio o laptop** con las siguientes capacidades:
+  - **Procesador:** Intel Core i7/i9 o AMD Ryzen 7/9
+  - **Memoria RAM:** Mínimo 8GB (recomendado 16GB para grandes volúmenes de datos)
+  - **Almacenamiento:** SSD de al menos 512GB para rapidez en procesamiento
+- **Servidor en la nube** como Azure, AWS o Google Cloud.
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+### Software:
+- **Python 3.13** o versión actual.
+- **Python con librerías de scraping** (Selenium, BeautifulSoup): Para extraer información pública de LinkedIn (considerando sus restricciones).
+- **Visual Studio Code 1.98** o la versión más actual.
+- **MySQL 8.0** o versión actual.
+- **Tableau 2021.4** o versión actual.
 
-3. <span id="_Toc52661348" class="anchor"></span>**Análisis de la Situación actual**
+### 4.2 Factibilidad Económica
 
-    3.1. Planteamiento del problema
+#### 4.2.1 Costos Generales
 
-            Describa antecedentes y situación actual, explicando la problemática y/o necesidad que será resuelta con el proyecto propuesto.
+| Accesorios y Materiales        | Costos mensuales | Durante 3 meses |
+|---------------------------------|------------------|-----------------|
+| Papelería                       | S/. 14.00        | S/. 42.00       |
+| Lapiceros                       | S/. 4.00         | S/. 12.00       |
+| Cartuchos de Impresora          | S/. 60.00        | S/. 180.00      |
+| Computadora de Oficina          | S/. 1200.00      | S/. 3600.00     |
+| **Total**                       | **S/. 1278.00**  | **S/. 3834.00** |
 
-    3.2. Consideraciones de hardware y software
+#### 4.2.2 Costos Operativos Durante el Desarrollo
 
-            Hardware y software posibles para la implementación, se analizara lo que existe y es alcanzable, se evaluara que tecnología se puede > utilizar en el proyecto.
+| Servicios                       | Costos mensuales | Durante 3 meses |
+|----------------------------------|------------------|-----------------|
+| Internet                        | S/. 80.00        | S/. 240.00      |
+| Electricidad                     | S/. 70.00        | S/. 210.00      |
+| Agua                             | S/. 60.00        | S/. 180.00      |
+| **Total**                        | **S/. 210.00**   | **S/. 630.00**  |
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+#### 4.2.3 Costos del Ambiente
 
-4. <span id="_Toc52661349" class="anchor"></span>**Estudio de
-    Factibilidad**
+| Descripción                      | Costo Mensual    | Durante 3 meses |
+|-----------------------------------|------------------|-----------------|
+| Internet                         | S/. 70.00        | S/. 210.00      |
+| Dominio Web                       | S/. 10.00        | S/. 30.00       |
+| Hosting Web (Elastika)            | S/. 20.00        | S/. 60.00       |
+| **Total**                         | **S/. 100.00**   | **S/. 300.00**  |
+
+#### 4.2.4 Costos de Personal
 
-    Describir los resultados que esperan alcanzar del estudio de factibilidad, las actividades que se realizaron para preparar la evaluación de factibilidad y por quien fue aprobado.
+| Rol del Personal                 | Mensualmente     | Durante 3 meses |
+|-----------------------------------|------------------|-----------------|
+| Jefe del Proyecto                 | S/. 800.00       | S/. 2400.00     |
+| Programador                       | S/. 800.00       | S/. 2400.00     |
+| Analista de Datos                 | S/. 800.00       | S/. 2400.00     |
+| **Total**                         | **S/. 2400.00**  | **S/. 7200.00** |
 
-    4.1. <span id="_Toc52661350" class="anchor"></span>Factibilidad Técnica
+#### 4.2.5 Costos Totales del Desarrollo del Sistema
 
-        El estudio de viabilidad técnica se enfoca en obtener un entendimiento de los recursos tecnológicos disponibles actualmente y su aplicabilidad a las necesidades que se espera tenga el proyecto. En el caso de tecnología informática esto implica una evaluación del hardware y software y como este puede cubrir las necesidades del sistema propuesto.
+| Tipos de Costos                   | Costos Mensuales | Costos Totales  |
+|------------------------------------|------------------|-----------------|
+| General                           | S/. 1,278.00     | S/. 3,834.00    |
+| Operativos                        | S/. 210.00       | S/. 630.00      |
+| Ambientales                        | S/. 100.00       | S/. 300.00      |
+| Personal                          | S/. 2400.00      | S/. 7200.00     |
+| **Total**                          | **S/. 3,988.00** | **S/. 11,964.00** |
 
-        Realizar una evaluación de la tecnología actual existente y la posibilidad de utilizarla en el desarrollo e implantación del sistema.*
+## 4.3 Factibilidad Operativa
 
-        Describir acerca del hardware (equipos, servidor), software (aplicaciones, navegadores, sistemas operativos, dominio, internet, infraestructura de red física, etc.
+### Beneficios del producto:
+El sistema de análisis del perfil profesional de los egresados de la EPIS de la UPT en LinkedIn proporcionará diversas ventajas para la universidad, los egresados y las empresas:
 
-    4.2. <span id="_Toc52661351" class="anchor"></span>Factibilidad Económica
+- **Seguimiento eficiente de egresados:** Permitirá recopilar y analizar información sobre la trayectoria profesional de los egresados en LinkedIn, facilitando estudios de empleabilidad y la mejora de planes curriculares.
+- **Optimización de la toma de decisiones:** Los datos recopilados servirán para evaluar la pertinencia de la formación académica y mejorar la oferta educativa basada en tendencias del mercado laboral.
+- **Facilitación de conexiones laborales:** Se podrán identificar oportunidades de networking entre egresados, estudiantes y empresas interesadas en talento proveniente de la EPIS de la UPT.
 
-        El propósito del estudio de viabilidad económica, es determinar los beneficios económicos del proyecto o sistema propuesto para la organización, en contraposición con los costos.
-        Como se mencionó anteriormente en el estudio de factibilidad técnica wvaluar si la institución (departamento de TI) cuenta con las herramientas necesarias para la implantación del sistema y evaluar si la propuesta requiere o no de una inversión inicial en infraestructura informática.
-        Se plantearán los costos del proyecto.
-        Costeo del Proyecto: Consiste en estimar los costos de los recursos Humanos, materiales o consumibles y/o máquinas) directos para completar las actividades del proyecto}.*
+## 4.4 Factibilidad Legal
 
-        Definir los siguientes costos:
+El sistema de análisis de perfiles en LinkedIn deberá cumplir con la **Ley N.º 29733 de Protección de Datos Personales** y las políticas de privacidad de la plataforma. Se obtendrá el consentimiento de los egresados en caso de uso de datos personales más allá de lo disponible públicamente en LinkedIn. Se respetarán las normativas de acceso y uso de datos de LinkedIn, asegurando que la recolección y análisis sean éticos y legales. Se implementarán medidas de **ciberseguridad** para resguardar la información recolectada y evitar vulneraciones de privacidad.
 
-        4.2.1. Costos Generales
+## 4.5 Factibilidad Social
 
-                Los costos generales son todos los gastos realizados en accesorios y material de oficina y de uso diario, necesarios para los procesos, tales como, papeles, plumas, cartuchos de impresora, marcadores, computadora etc. Colocar tabla de costos.
+Este proyecto tendrá un impacto positivo en la comunidad universitaria al brindar información clave sobre la inserción laboral de los egresados, permitiendo que la universidad adapte sus programas a las necesidades del mercado. Fortalecerá la identidad y prestigio de la EPIS de la UPT, al mostrar estadísticas sobre el éxito profesional de sus egresados y creará una comunidad de apoyo entre egresados, fomentando el networking y el intercambio de oportunidades laborales.
 
-        4.2.2. Costos operativos durante el desarrollo 
-        
-                Evaluar costos necesarios para la operatividad de las actividades de la empresa durante el periodo en el que se realizara el proyecto. Los costos de operación pueden ser renta de oficina, agua, luz, teléfono, etc.
+## 4.6 Factibilidad Ambiental
 
-        4.2.3. Costos del ambiente
+El sistema de análisis de perfiles profesionales tendrá un impacto ambiental positivo al reducir el uso de documentos físicos, ya que toda la información se gestionará digitalmente. Se optimizará el consumo de recursos tecnológicos, priorizando herramientas eficientes y de bajo consumo energético, y se fomentará el acceso remoto, evitando desplazamientos innecesarios para la recolección de datos y promoviendo un enfoque sustentable.
 
-                Evaluar si se cuenta con los requerimientos técnicos para la implantación del software como el dominio, infraestructura de red, acceso a internet, etc.
+## 5. Análisis Financiero
 
-        4.2.4. Costos de personal
+### 5.1 Justificación de la Inversión
 
-                Aquí se incluyen los gastos generados por el recurso humano que se necesita para el desarrollo del sistema únicamente.
+La inversión en el sistema de análisis del perfil profesional de los egresados de la EPIS de la UPT en LinkedIn está justificada debido a los múltiples beneficios que ofrecerá, tanto tangibles como intangibles, a la universidad. Estos beneficios no sólo permitirán una mejor evaluación de la inserción laboral de los egresados, sino que también fortalecerán la planificación académica, la vinculación con el sector empresarial y el prestigio institucional de la EPIS de la UPT.
 
-                No se considerará personal para la operación y funcionamiento del sistema.
+#### 5.1.1 Beneficios del Proyecto
 
-                Incluir tabla que muestra los gastos correspondientes al personal.
+**Cuadro de Egresos:**
+Gastos operacionales como parte del funcionamiento del software en la puesta en producción:
 
-                Indicar organización y roles. Indicar horario de trabajo del personal.
+| Gasto                        | PU        | Cantidad | Subtotal  |
+|------------------------------|-----------|----------|-----------|
+| Infraestructura cloud         | S/ 3,000  | 1        | S/ 3,000  |
+| Especialista en Análisis de datos | S/ 5,000  | 1        | S/ 5,000  |
+| Desarrollador Full Stack      | S/ 4,500  | 1        | S/ 4,500  |
+| Mantenimiento de hardware y software | S/ 2,500  | 0.5      | S/ 2,500  |
+| **Total de egresos**          |           |          | **S/ 13,750** |
+| **Total anual (12 meses)**   |           |          | **S/ 165,000** |
 
-        4.2.5.  Costos totales del desarrollo del sistema
+**Cuadro de Ingresos anual estimado del proyecto:**
 
-                {Totalizar costos y realizar resumen de costo final del proyecto y la forma de pago.
+| Concepto                              | Monto      |
+|---------------------------------------|------------|
+| Mejora en la empleabilidad de egresados (15%) | S/ 120,000 |
+| Optimización de la toma de decisiones (20%) | S/ 80,000  |
+| Reducción en costos de investigación laboral (30%) | S/ 90,000  |
+| Mayor precisión en datos de egresados (10%) | S/ 20,000  |
+| **Ingreso total anual**               | **S/ 310,000** |
 
-    4.3. <span id="_Toc52661352" class="anchor"></span>Factibilidad Operativa
+**Presupuesto del proyecto**: S/ 54,000
 
-        Describir los beneficios del producto y si se tiene la capacidad por parte del cliente para mantener el sistema funcionando y garantizar el buen funcionamiento y su impacto en los usuarios. Lista de interesados.
+#### Beneficios tangibles:
+- Reducción del tiempo en la recopilación y análisis de datos en un 40%.
+- Optimización del uso de recursos para la investigación académica y laboral en un 30%.
+- Acceso a información actualizada sobre egresados en un 95% de los casos.
+- Disminución del uso de encuestas físicas en un 50%, reduciendo costos en papel y logística.
+- Mejora en la planeación y actualización curricular en función de las tendencias laborales en un 25%.
+- Reducción de costos operativos en estudios de egresados en un 20%.
 
-    4.4. <span id="_Toc52661353" class="anchor"></span>Factibilidad Legal
+#### Beneficios intangibles:
+- Mejor comprensión de la inserción laboral de los egresados.
+- Aumento en la confiabilidad de los datos para la toma de decisiones académicas y estratégicas.
+- Mayor facilidad para establecer convenios con empresas basados en datos reales del mercado laboral.
+- Fortalecimiento de la reputación institucional al contar con estudios detallados sobre egresados.
+- Adaptabilidad a los cambios en el mercado laboral, permitiendo una actualización oportuna de la malla curricular.
+- Cumplimiento de normativas y requisitos de acreditación con información actualizada y verificable.
 
-        Determinar si existe conflicto del proyecto con restricciones legales como leyes y regulaciones del país o locales relacionadas con seguridad, protección de datos, conducta de negocio, empleo y adquisiciones.
+### 5.1.2 Criterios de Inversión
 
-    4.5. <span id="_Toc52661354" class="anchor"></span>Factibilidad Social 
+#### 5.1.2.1 Relación Beneficio/Costo (B/C)
 
-        Evaluar influencias y asuntos de índole social y cultural como el clima político, códigos de conducta y ética*
+| DETALLE                | INGRESOS  | EGRESOS  | FLUJO DE CAJA |
+|------------------------|-----------|----------|---------------|
+| **INVERSIÓN INICIAL**  |           | -S/ 11,964 |               |
+| **MES 1**              | S/ 7,000  | S/ 5,500  | S/ 1,500      |
+| **MES 2**              | S/ 14,000 | S/ 9,000  | S/ 5,000      |
+| **MES 3**              | S/ 21,000 | S/ 12,500 | S/ 8,500      |
+| **TASA DE DESCUENTO**  | 8%        |          |               |
 
-    4.6. <span id="_Toc52661355" class="anchor"></span>Factibilidad Ambiental
+- **VAN (Valor Actual Neto)**: S/ 1,820
+- **TIR (Tasa Interna de Retorno)**: 15%
+- **B/C (Relación Beneficio/Costo)**: 1.15
+- **TIEMPO DE RECUPERACIÓN**: Tercer Mes
 
-        Evaluar influencias y asuntos de índole ambiental como el impacto y repercusión en el medio ambiente.
+#### 5.1.2.2 Valor Actual Neto (VAN)
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+- **VAN**: S/ 1,820
+- **TIR**: 15%
+- **B/C**: 1.15
+- **TIEMPO DE RECUPERACIÓN**: Tercer Mes
 
-5. <span id="_Toc52661356" class="anchor"></span>**Análisis Financiero**
+Dado que el VAN es positivo, se concluye que los ingresos generados por el proyecto superarán los costos y la inversión inicial. Esto implica que no solo se recuperará la inversión, sino que también se obtendrá un beneficio adicional.
 
-    El plan financiero se ocupa del análisis de ingresos y gastos asociados a cada proyecto, desde el punto de vista del instante temporal en que se producen. Su misión fundamental es detectar situaciones financieramente inadecuadas.
-    Se tiene que estimar financieramente el resultado del proyecto.
+#### 5.1.2.3 Tasa Interna de Retorno (TIR)
 
-    5.1. Justificación de la Inversión
+- **VAN**: S/ 1,820
+- **TIR**: 15%
+- **B/C**: 1.15
+- **TIEMPO DE RECUPERACIÓN**: Tercer Mes
 
-        5.1.1. Beneficios del Proyecto
+La TIR del 15% indica que la rentabilidad del proyecto es superior a la tasa de descuento establecida del 8%, lo que confirma la viabilidad del sistema de análisis del perfil profesional de los egresados de la EPIS de la UPT en LinkedIn.
 
-            El beneficio se calcula como el margen económico menos los costes de oportunidad, que son los márgenes que hubieran podido obtenerse de haber dedicado el capital y el esfuerzo a otras actividades.
-            El beneficio, obtenido lícitamente, no es sólo una recompensa a la inversión, al esfuerzo y al riesgo asumidos por el empresario, sino que también es un factor esencial para que las empresas sigan en el  mercado e incorporen nuevas inversiones al tejido industrial y social de las naciones.
-            Describir beneficios tangibles e intangibles*
-            Beneficios tangibles: son de fácil cuantificación, generalmente están relacionados con la reducción de recursos o talento humano.
-            Beneficios intangibles: no son fácilmente cuantificables y están relacionados con elementos o mejora en otros procesos de la organización.
->
-            Ejemplo de beneficios:
+## 6. Conclusiones
 
-            - Mejoras en la eficiencia del área bajo estudio.
-            - Reducción de personal.
-            - Reducción de futuras inversiones y costos.
-            - Disponibilidad del recurso humano.
-            - Mejoras en planeación, control y uso de recursos.
-            - Suministro oportuno de insumos para las operaciones.
-            - Cumplimiento de requerimientos gubernamentales.
-            - Toma acertada de decisiones.
-            - Disponibilidad de información apropiada.
-            - Aumento en la confiabilidad de la información.
-            - Mejor servicio al cliente externo e interno
-            - Logro de ventajas competitivas.
-            - Valor agregado a un producto de la compañía.
-        
-        5.1.2. Criterios de Inversión
+- **Factibilidad Técnica:** El sistema es viable tecnológicamente, utilizando hardware y software adecuados, como plataformas de análisis de datos (Python, R) y herramientas de web scraping (LinkedIn).
+- **Factibilidad Económica:** Los costos de desarrollo y operación son razonables y ajustados al presupuesto, sin necesidad de grandes inversiones adicionales en infraestructura.
+- **Factibilidad Operativa:** El sistema optimiza el análisis del perfil profesional de los egresados, mejorando la toma de decisiones y la relación con los egresados.
+- **Factibilidad Legal:** El proyecto cumple con la Ley de protección de datos personales y las regulaciones de privacidad, garantizando el consentimiento para el uso de datos de LinkedIn.
+- **Factibilidad Social:** Contribuye a la relación universidad-egresados, proporcionando información valiosa sobre inserción laboral y mejorando la comunidad académica.
+- **Factibilidad Ambiental:** Reduce el uso de documentos físicos y optimiza los procesos de análisis, disminuyendo el impacto ambiental.
 
-            5.1.2.1. Relación Beneficio/Costo (B/C)
+**Conclusión:** El proyecto es viable en todos los aspectos clave, ofreciendo beneficios tanto para la universidad como para sus egresados.
 
-                En base a los costos y beneficios identificados se evalúa si es factible el desarrollo del proyecto. 
-                Si se presentan varias alternativas de solución se evaluará cada una de ellas para determinar la mejor solución desde el punto de vista del > retorno de la inversión
-                El B/C si es mayor a uno, se acepta el proyecto; si el B/C es igual a uno es indiferente aceptar o rechazar el proyecto y si el B/C es menor a uno se rechaza el proyecto
 
-            5.1.2.2. Valor Actual Neto (VAN)
-            
-                Valor actual de los beneficios netos que genera el proyecto. Si el VAN es mayor que cero, se acepta el proyecto; si el VAN es igual a cero es indiferente aceptar o rechazar el proyecto y si el VAN es menor que cero se rechaza el proyecto
 
-            5.1.2.3 Tasa Interna de Retorno (TIR)*
-                Es la tasa porcentual que indica la rentabilidad promedio anual que genera el capital invertido en el proyecto. Si la TIR es mayor que el costo de oportunidad se acepta el proyecto, si la TIR es igual al costo de oportunidad es indiferente aceptar o rechazar el proyecto, si la TIR es menor que el costo de oportunidad se rechaza el proyecto
 
-                Costo de oportunidad de capital (COK) es la tasa de interés que podría haber obtenido con el dinero invertido en el proyecto
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-6. <span id="_Toc52661357" class="anchor"></span>**Conclusiones**
 
-Explicar los resultados del análisis de factibilidad que nos indican si el proyecto es viable y factible.
+
+
