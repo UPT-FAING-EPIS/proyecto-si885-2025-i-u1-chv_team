@@ -10,7 +10,7 @@
 
 **Escuela Profesional de Ingeniería de Sistemas**
 
-**Proyecto *Análisis del Perfil Profesional de los Egresados de la EPIS de la UPT en LinkedIn***
+**Proyecto *Sistema de Análisis del Perfil Profesional de los Egresados de la EPIS de la UPT en LinkedIn***
 
 Curso: **Inteligencia de Negocios**
 
