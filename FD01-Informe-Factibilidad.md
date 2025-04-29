@@ -14,7 +14,7 @@
 
 Curso: **Inteligencia de Negocios**
 
-Docente: **Mag. Patrick José Cuadros Quiroga**
+Docente: **Ing.Patrick José Cuadros Quiroga**
 
 ## Integrantes:
 
@@ -59,8 +59,7 @@ Docente: **Mag. Patrick José Cuadros Quiroga**
    4.6. **Factibilidad Ambiental** ................................. 5  
 5. **Análisis Financiero** ......................................... 5  
 6. **Conclusiones** ................................................. 5
-
-
+                                                
 # Informe de Factibilidad
 
 ## 1. Descripción del Proyecto
