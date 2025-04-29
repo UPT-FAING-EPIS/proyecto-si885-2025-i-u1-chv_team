@@ -26,7 +26,6 @@ Docente: **Mag. Patrick José Cuadros Quiroga**
 
 ***2025***
 
-
 </center>
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
@@ -44,8 +43,7 @@ Docente: **Mag. Patrick José Cuadros Quiroga**
 **Versión 1.0**
 
 </div>
-
-
+      
 # ÍNDICE GENERAL
 
 1. **Introducción** ................................................. 4  
