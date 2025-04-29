@@ -224,7 +224,6 @@ El software desarrollado será de código abierto, permitiendo a futuros investi
 Para que el sistema funcione correctamente, se deben cumplir los siguientes requisitos:
 
 **Software necesario:**
-- Python 3.8 o superior, junto con librerías necesarias como Selenium, BeautifulSoup y Pandas.
 - Google Chrome y ChromeDriver para la automatización del Web Scraping.
 - Microsoft Power BI (versión gratuita o Pro) para la visualización de datos.
 - Acceso a internet para la extracción de datos desde LinkedIn.
@@ -336,6 +335,9 @@ Para garantizar que el sistema funcione de manera eficiente y genere resultados 
 - 
 ---
 
+# Roadmap:
+
+![Roadmap](./descarga.png)
 
 
 

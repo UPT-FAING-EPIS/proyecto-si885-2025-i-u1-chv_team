@@ -107,8 +107,8 @@ Existe una falta de información estructurada sobre la trayectoria laboral de lo
 - Python 3.13 o versión actual
 - Librerías de scraping (Selenium, BeautifulSoup): Para extraer información pública de LinkedIn.
 - Visual Studio Code 1.98 o versión más actual
-- MySQL 8.0 o versión actual
-- Tableau 2021.4 o versión actual
+- SQL Server o versión actual
+- Power BI versión actual
 
 ## 4. Estudio de Factibilidad
 
@@ -128,9 +128,28 @@ El estudio de viabilidad técnica tiene como objetivo evaluar la tecnología act
 - **Python 3.13** o versión actual.
 - **Python con librerías de scraping** (Selenium, BeautifulSoup): Para extraer información pública de LinkedIn (considerando sus restricciones).
 - **Visual Studio Code 1.98** o la versión más actual.
-- **MySQL 8.0** o versión actual.
-- **Tableau 2021.4** o versión actual.
+- **SQL Server** versión actual.
+- **Power BI** versión actual.
+### 4.1.1 Provisión de Infraestructura mediante Terraform
 
+Para la automatización y despliegue de la infraestructura necesaria del sistema, se utilizará *Terraform* como herramienta principal de IaC (Infrastructure as Code). Terraform permitirá crear y gestionar:
+
+- Base de datos *Azure SQL*
+- Almacenamiento *Azure Blob* para respaldos
+
+Esto garantiza un despliegue controlado, reproducible y escalable, facilitando la gestión de la infraestructura en ambientes de nube pública.
+
+---
+
+### 4.1.2 Estimación de Costos de Infraestructura en Azure
+
+| Recurso desplegado con Terraform     | Proveedor | Precio mensual aprox. |
+|-------------------------------------|-----------|------------------------|
+| Base de datos SQL (Azure Basic)     | Azure     | S/. 18.75              |
+| Blob Storage (50GB)                 | Azure     | S/. 7.50               |
+| *Total mensual estimado*          |           | *S/. 26.25*          |
+
+El costo mensual estimado es de aproximadamente S/. 26.25, incluyendo la base de datos SQL y el almacenamiento de respaldos. Esto permitirá alojar la información de egresados extraída de LinkedIn y preparar reportes analíticos accesibles vía Power BI.
 ### 4.2 Factibilidad Económica
 
 #### 4.2.1 Costos Generales
@@ -156,10 +175,10 @@ El estudio de viabilidad técnica tiene como objetivo evaluar la tecnología act
 
 | Descripción                      | Costo Mensual    | Durante 3 meses |
 |-----------------------------------|------------------|-----------------|
-| Internet                         | S/. 70.00        | S/. 210.00      |
-| Dominio Web                       | S/. 10.00        | S/. 30.00       |
-| Hosting Web (Elastika)            | S/. 20.00        | S/. 60.00       |
-| **Total**                         | **S/. 100.00**   | **S/. 300.00**  |
+| Base de datos para perfiles de egresados                         | S/. 18.75        | S/. 56.25      |
+| Almacenamiento de resplados                       | S/. 7.50        | S/22.50       |
+| Conexion dedicada para la extraccion/actualizacion            | S/. 15.00        | S/. 45.00       |
+| **Total**                         | **S/. 41.25**   | **S/. 123.75**  |
 
 #### 4.2.4 Costos de Personal
 
