@@ -34,3 +34,18 @@ ENTONCES el sistema valida los campos y muestra "Registro exitoso"
 DADO que selecciono "Ingeniería de Sistemas" y "2023"  
 CUANDO aplico los filtros  
 ENTONCES veo 15 registros y el botón "Exportar" 
+
+** HU-03: Eliminación de Egresados
+**COMO** administrador
+**QUIERO** eliminar egresados del sistema
+**PARA** depurar la base de datos
+
+*Criterios de Aceptación:*
+Confirmación previa antes de eliminar
+Eliminación lógica (no física)
+Registro de la acción
+
+Escenario de Prueba:
+DADO que selecciono un egresado  
+CUANDO confirmo la eliminación  
+ENTONCES el egresado ya no aparece en la lista
