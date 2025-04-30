@@ -79,3 +79,16 @@ Escenario de Prueba:
 DADO que selecciono un archivo CSV válido
 CUANDO presiono "Cargar"
 ENTONCES el sistema importa los registros correctamente
+
+HU-06: Extracción manual de información de LinkedIn
+COMO analista
+QUIERO copiar información de LinkedIn
+PARA complementar los perfiles de los egresados
+Criterios de Aceptación:
+Campo editable para pegar datos
+Guardar los cambios como notas adicionales
+Visibilidad para administradores
+Escenario de Prueba:
+DADO que tengo el perfil de LinkedIn abierto
+CUANDO copio el resumen y lo pego en el campo de notas
+ENTONCES el sistema guarda esa información
