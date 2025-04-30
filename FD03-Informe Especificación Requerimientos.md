@@ -92,3 +92,16 @@ Escenario de Prueba:
 DADO que tengo el perfil de LinkedIn abierto
 CUANDO copio el resumen y lo pego en el campo de notas
 ENTONCES el sistema guarda esa información
+
+HU-07: Generación de reportes
+COMO usuario
+QUIERO generar reportes por carrera y año
+PARA analizar la distribución de egresados
+Criterios de Aceptación:
+Selección de filtros antes de generar
+Reporte en PDF o Excel
+Diseño legible y exportable
+Escenario de Prueba:
+DADO que selecciono "Contabilidad" y "2022"
+CUANDO presiono "Generar Reporte"
+ENTONCES se descarga un archivo con los datos filtrados
