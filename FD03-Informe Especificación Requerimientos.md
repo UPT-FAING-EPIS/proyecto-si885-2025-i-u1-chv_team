@@ -118,3 +118,16 @@ Escenario de Prueba:
 DADO que elijo "Ingeniería" y "2021"
 CUANDO aplico los filtros
 ENTONCES se muestra un gráfico de distribución por carrera
+
+HU-09: Exportación de reportes
+COMO usuario
+QUIERO exportar los reportes generados
+PARA compartirlos o archivarlos
+Criterios de Aceptación:
+Opciones PDF y Excel
+Nombre de archivo personalizado
+Descargar sin errores
+Escenario de Prueba:
+DADO que tengo un reporte generado
+CUANDO presiono "Exportar como PDF"
+ENTONCES el archivo se descarga correctamente
