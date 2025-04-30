@@ -144,3 +144,16 @@ Escenario de Prueba:
 DADO que registro un nuevo usuario
 CUANDO asigno el rol de "Analista"
 ENTONCES el sistema lo agrega con ese nivel de acceso
+
+HU-11: Registro de actualizaciones
+COMO administrador
+QUIERO tener un historial de cambios
+PARA auditar las modificaciones de los datos
+Criterios de Aceptación:
+Fecha, usuario y tipo de cambio
+Visualización por registro
+Exportable a Excel
+Escenario de Prueba:
+DADO que un usuario edita un egresado
+CUANDO se guarda el cambio
+ENTONCES el sistema registra la modificación
