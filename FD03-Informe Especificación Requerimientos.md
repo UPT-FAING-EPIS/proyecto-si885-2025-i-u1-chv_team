@@ -131,3 +131,16 @@ Escenario de Prueba:
 DADO que tengo un reporte generado
 CUANDO presiono "Exportar como PDF"
 ENTONCES el archivo se descarga correctamente
+
+HU-10: Gestión de usuarios
+COMO administrador
+QUIERO crear y gestionar cuentas de usuario
+PARA controlar el acceso al sistema
+Criterios de Aceptación:
+Roles: administrador y analista
+Validación por correo único
+Activar o desactivar cuentas
+Escenario de Prueba:
+DADO que registro un nuevo usuario
+CUANDO asigno el rol de "Analista"
+ENTONCES el sistema lo agrega con ese nivel de acceso
