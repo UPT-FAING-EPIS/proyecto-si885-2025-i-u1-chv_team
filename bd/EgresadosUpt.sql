@@ -1,6 +1,7 @@
 CREATE DATABASE egresados_upt;
 GO
 
+
 USE egresados_upt;
 GO
 
