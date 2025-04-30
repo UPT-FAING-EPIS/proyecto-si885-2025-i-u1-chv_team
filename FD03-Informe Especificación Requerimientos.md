@@ -64,3 +64,18 @@ Escenario de Prueba:
 DADO que ingreso a un registro de egresado  
 CUANDO modifico el campo "correo" y guardo  
 ENTONCES el cambio se aplica y se registra
+
+
+HU-05: Carga de datos desde archivos
+COMO administrador
+QUIERO importar egresados desde un archivo CSV
+PARA agilizar el registro masivo
+Criterios de Aceptación:
+Validación del formato del archivo
+Mostrar resumen antes de importar
+Registrar errores por fila
+
+Escenario de Prueba:
+DADO que selecciono un archivo CSV válido
+CUANDO presiono "Cargar"
+ENTONCES el sistema importa los registros correctamente
