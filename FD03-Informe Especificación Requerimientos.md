@@ -41,11 +41,26 @@ ENTONCES veo 15 registros y el botón "Exportar"
 **PARA** depurar la base de datos
 
 *Criterios de Aceptación:*
-Confirmación previa antes de eliminar
-Eliminación lógica (no física)
-Registro de la acción
+**COMO** previa antes de eliminar
+**QUIERO** Eliminación lógica (no física)
+**PARA** Registro de la acción
 
 Escenario de Prueba:
 DADO que selecciono un egresado  
 CUANDO confirmo la eliminación  
 ENTONCES el egresado ya no aparece en la lista
+
+HU-04: Edición de Información
+COMO administrador
+QUIERO editar los datos de un egresado
+PARA corregir errores o actualizar la información
+
+Criterios de Aceptación:
+Modificación limitada a campos específicos
+Guardado con confirmación
+Registro de la modificación en auditoría
+
+Escenario de Prueba:
+DADO que ingreso a un registro de egresado  
+CUANDO modifico el campo "correo" y guardo  
+ENTONCES el cambio se aplica y se registra
