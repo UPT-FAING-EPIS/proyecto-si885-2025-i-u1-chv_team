@@ -170,3 +170,16 @@ Escenario de Prueba:
 DADO que selecciono "Medicina", "2018" y "Canadá"
 CUANDO aplico filtros
 ENTONCES veo solo los egresados que cumplen esos criterios
+
+HU-13: Seguridad de datos
+COMO administrador
+QUIERO proteger la información personal de los egresados
+PARA cumplir con normativas de privacidad
+Criterios de Aceptación:
+Acceso con autenticación
+Encriptación de datos sensibles
+Roles con permisos diferenciados
+Escenario de Prueba:
+DADO que intento acceder sin iniciar sesión
+CUANDO ingreso una URL directa al sistema
+ENTONCES soy redirigido al login
