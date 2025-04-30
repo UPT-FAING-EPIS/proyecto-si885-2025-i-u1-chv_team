@@ -105,3 +105,16 @@ Escenario de Prueba:
 DADO que selecciono "Contabilidad" y "2022"
 CUANDO presiono "Generar Reporte"
 ENTONCES se descarga un archivo con los datos filtrados
+
+HU-08: Visualización gráfica de datos
+COMO directivo
+QUIERO ver gráficos de egresados por facultad y año
+PARA tomar decisiones informadas
+Criterios de Aceptación:
+Gráficos de barras y pasteles
+Actualización dinámica con filtros
+Exportar como imagen
+Escenario de Prueba:
+DADO que elijo "Ingeniería" y "2021"
+CUANDO aplico los filtros
+ENTONCES se muestra un gráfico de distribución por carrera
