@@ -157,3 +157,16 @@ Escenario de Prueba:
 DADO que un usuario edita un egresado
 CUANDO se guarda el cambio
 ENTONCES el sistema registra la modificación
+
+HU-12: Filtrado avanzado de egresados
+COMO investigador
+QUIERO combinar filtros como carrera, año y país
+PARA obtener segmentos específicos
+Criterios de Aceptación:
+Filtros combinables y dinámicos
+Aplicación inmediata
+Exportar resultados filtrados
+Escenario de Prueba:
+DADO que selecciono "Medicina", "2018" y "Canadá"
+CUANDO aplico filtros
+ENTONCES veo solo los egresados que cumplen esos criterios
